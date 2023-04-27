@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T03:45:10.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9ishVk90rXcoEDUu7WJd" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T04:06:02.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_mTbApNKCBwicUDBwBEv" version="21.2.3" type="github">
   <diagram name="페이지-1" id="TVinaJ09V7oBKgoMPm-h">
-    <mxGraphModel dx="5378" dy="1741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4858" dy="1733" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-13" value="채팅 메시지 전송 요청" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="5GjwP9jPk0JpVu6hQOLm-12" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1" y="17" as="offset" />
+            <mxPoint x="-58" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="5GjwP9jPk0JpVu6hQOLm-15" edge="1">
@@ -66,7 +66,7 @@
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-22" value="유저 토큰 / 서버 토큰 검증 &amp;amp; 메시지 생성" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="5GjwP9jPk0JpVu6hQOLm-21" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" as="offset" />
+            <mxPoint x="75" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="5GjwP9jPk0JpVu6hQOLm-45" target="5GjwP9jPk0JpVu6hQOLm-24" edge="1">
@@ -83,11 +83,11 @@
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-27" value="메시지 send : 채팅 &amp;amp; Push 알림 전송 요청" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="5GjwP9jPk0JpVu6hQOLm-26" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-4" y="14" as="offset" />
+            <mxPoint x="9" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-43" value="채팅 데이터 전송 &amp;amp; Push 알림 데이터 전송" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5GjwP9jPk0JpVu6hQOLm-24" edge="1">
-          <mxGeometry x="-0.2315" y="26" relative="1" as="geometry">
+          <mxGeometry x="-0.3044" y="9" relative="1" as="geometry">
             <mxPoint x="-2553" y="-832.83" as="sourcePoint" />
             <mxPoint x="-3284" y="-984" as="targetPoint" />
             <Array as="points">
@@ -119,7 +119,7 @@
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-52" value="(회원탈퇴, 앱 삭제 시) 토큰 무효화" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="5GjwP9jPk0JpVu6hQOLm-51" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92" y="3" as="offset" />
+            <mxPoint x="65" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-56" value="else" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="1" connectable="0" vertex="1">
@@ -142,7 +142,7 @@
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-62" value="Push 알림 전송 실패 로그 (유저 인터넷 상황으로 인한 실패)" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="5GjwP9jPk0JpVu6hQOLm-61" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5" y="15" as="offset" />
+            <mxPoint x="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-63" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
@@ -166,7 +166,7 @@
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-80" value="유저 토큰 / 서버 토큰 검증 &amp;amp; 메시지 생성" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="5GjwP9jPk0JpVu6hQOLm-79" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="107" y="2" as="offset" />
+            <mxPoint x="88" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="5GjwP9jPk0JpVu6hQOLm-77" target="5GjwP9jPk0JpVu6hQOLm-45" edge="1">
@@ -190,7 +190,7 @@
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-86" value="(회원탈퇴, 앱 삭제 시) 토큰 무효화" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="5GjwP9jPk0JpVu6hQOLm-85" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92" y="3" as="offset" />
+            <mxPoint x="64" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-89" value="else" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="1" connectable="0" vertex="1">
@@ -205,8 +205,8 @@
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-45" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-2578.58" y="-657" width="75.84" height="9" as="geometry" />
         </mxCell>
-        <mxCell id="5GjwP9jPk0JpVu6hQOLm-92" value="메시지 send : 채팅 &amp;amp; Push 알림 전송 요청" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5GjwP9jPk0JpVu6hQOLm-45" edge="1">
-          <mxGeometry x="-0.2474" y="22" relative="1" as="geometry">
+        <mxCell id="5GjwP9jPk0JpVu6hQOLm-92" value="채팅 데이터 전송 &amp;amp; Push 알림 데이터 전송" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5GjwP9jPk0JpVu6hQOLm-45" edge="1">
+          <mxGeometry x="-0.2877" y="9" relative="1" as="geometry">
             <mxPoint x="-2549.5" y="-611" as="sourcePoint" />
             <mxPoint x="-3288.5" y="-616" as="targetPoint" />
             <Array as="points">
@@ -220,8 +220,8 @@
         <mxCell id="5GjwP9jPk0JpVu6hQOLm-24" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-2559.55" y="-1002.77" width="34.9" height="9.35" as="geometry" />
         </mxCell>
-        <mxCell id="h1ilbxux6WHLbRiqgfl4-1" value="메시지 send : 채팅 &amp;amp; Push 알림 전송 요청" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="-2791.0043321901576" y="-675.0047869143484" as="geometry" />
+        <mxCell id="h1ilbxux6WHLbRiqgfl4-1" value="메시지 send : 채팅 &amp;amp; Push 알림 전송 요청" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-2702.0043321901576" y="-688.0047869143484" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
